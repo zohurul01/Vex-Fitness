@@ -1,0 +1,979 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Info -->
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+    <meta content="zohir" name="author" />
+
+    <!-- Title -->
+    <title>Vex Fitness - Dashboard</title>
+
+    <!-- Favicons -->
+    <link href="assets/images/favicon.png" rel="icon">
+    <link href="assets/images/favicon-retina.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+
+    <!-- Vendor CSS Files -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/icons.min.css" rel="stylesheet" type="text/css" />
+    <!-- Template Main CSS File -->
+    <link href="css/main.css" rel="stylesheet" type="text/css" />
+
+    <!-- =======================================================
+    * Template Name: Vex Fitness - Dashboard
+    * Version: 1.0.0
+    * Author: Zohurul
+    * Author URL: https://www.zohirs.com/
+    * Email: zohurul01@gmail.com
+    ======================================================== -->
+
+</head>
+
+<body>
+
+    <!-- Begin page -->
+    <div id="wrapper">
+
+        <!-- ========== Left Sidebar Start ========== -->
+        <div class="left-side-menu">
+
+            <div class="slimscroll-menu">
+
+                <!-- LOGO -->
+                <a href="index.html" class="logo text-center mb-4">
+                    <span class="logo-lg">
+                            <img src="assets/images/logo-light.png" alt="" height="40">
+                        </span>
+                    <span class="logo-sm">
+                            <img src="assets/images/logo-sm.png" alt="" height="30">
+                        </span>
+                </a>
+
+                <!--- Sidemenu -->
+                <div id="sidebar-menu">
+
+                    <ul class="metismenu" id="side-menu">
+
+                        <li class="menu-title">Navigation</li>
+
+                        <li>
+                            <a href="index.html">
+                                <i class="mdi mdi-palette-advanced"></i>
+                                <span> Dashboard </span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="user.html">
+                                <i class="mdi mdi-account-outline"></i>
+                                <span> User </span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="trainers.html">
+                                <i class="mdi mdi-account-multiple-outline"></i>
+                                <span> Trainers </span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="locations.html">
+                                <i class="mdi mdi-domain"></i>
+                                <span> Locations </span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="attendies.html">
+                                <i class="mdi mdi-tie"></i>
+                                <span> Attendies </span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="schedule.html">
+                                <i class="mdi mdi-timer-sand"></i>
+                                <span> Schedule </span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="plans.html">
+                                <i class="mdi mdi-gift"></i>
+                                <span> Plans </span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="video.html">
+                                <i class="mdi mdi-video"></i>
+                                <span> Videos </span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="feeds.html">
+                                <i class="mdi mdi-file-tree"></i>
+                                <span> News Feeds </span>
+                            </a>
+                        </li>
+
+                        <li class="menu-title">More</li>
+
+                        <li>
+                            <a href="javascript: void(0);">
+                                <i class="mdi mdi-cogs"></i>
+                                <span> Settings </span>
+                                <span class="menu-arrow"></span>
+                            </a>
+                            <ul class="nav-second-level" aria-expanded="false">
+                                <li>
+                                    <a href="#">Account</a>
+                                </li>
+                                <li>
+                                    <a href="gym.html">GYM</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="notification.html">
+                                <i class="mdi mdi-bell-outline"></i>
+                                <span class="badge badge-danger float-right">04</span>
+                                <span> Notification </span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <i class="mdi mdi-power"></i>
+                                <span> Logout </span>
+                            </a>
+                        </li>
+
+                    </ul>
+
+
+                </div>
+                <!-- End Sidebar -->
+
+                <div class="clearfix"></div>
+
+            </div>
+            <!-- Sidebar -left -->
+
+        </div>
+        <!-- Left Sidebar End -->
+
+        <!-- ============================================================== -->
+        <!-- Start Page Content here -->
+        <!-- ============================================================== -->
+
+        <div class="content-page">
+            <div class="content">
+
+                <!-- Topbar Start -->
+                <div class="navbar-custom">
+                    <ul class="list-unstyled topbar-right-menu float-right mb-0">
+
+
+
+                        <li class="dropdown top-nav-menu">
+                            <a class="nav-link dropdown-toggle nav-top mr-0" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                                <div class="top-menu-inner">
+                                    <div class="top-menu-icon">
+                                        <i class="mdi mdi-border-all"></i>
+                                    </div>
+                                    <span class="top-manu-name">
+                                        Add New
+                                    </span>
+                                </div>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right dropdown-menu-animated top-menu-dropdown ">
+                                <!-- item-->
+                                <div class="dropdown-header dropdown-menu-title">
+                                    <h6 class="text-overflow m-0">Add New</h6>
+                                </div>
+
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item dropdown-menu-item">
+                                    <i class="mdi mdi-account-outline"></i>
+                                    <span>Users</span>
+                                </a>
+
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item dropdown-menu-item">
+                                    <i class="mdi mdi-account-multiple-outline"></i>
+                                    <span>Trainers</span>
+                                </a>
+
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item dropdown-menu-item">
+                                    <i class="mdi mdi-domain"></i>
+                                    <span>Locations</span>
+                                </a>
+
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item dropdown-menu-item">
+                                    <i class="mdi mdi-video"></i>
+                                    <span>Videos</span>
+                                </a>
+
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item dropdown-menu-item">
+                                    <i class="mdi mdi-file-tree"></i>
+                                    <span>News Feeds</span>
+                                </a>
+
+                            </div>
+                        </li>
+                        <li class="dropdown top-nav-menu">
+                            <a class="nav-link dropdown-toggle nav-top mr-0" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                                <div class="top-menu-inner">
+                                    <div class="top-menu-icon">
+                                        <i class="mdi mdi-dumbbell"></i>
+                                    </div>
+                                    <span class="top-manu-name">
+                                        GYM
+                                    </span>
+                                </div>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right dropdown-menu-animated top-menu-dropdown ">
+                                <!-- item-->
+                                <div class="dropdown-header dropdown-menu-title">
+                                    <h6 class="text-overflow m-0">GYM Overview</h6>
+                                </div>
+
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item dropdown-menu-item">
+                                    <i class="mdi mdi-bulletin-board"></i>
+                                    <span>View Report</span>
+                                </a>
+
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item dropdown-menu-item">
+                                    <i class="mdi mdi-circle-edit-outline"></i>
+                                    <span>Update Info</span>
+                                </a>
+
+                            </div>
+                        </li>
+
+                        <li class="dropdown top-nav-menu">
+                            <a class="nav-link dropdown-toggle nav-top mr-0" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                                <div class="top-menu-inner">
+                                    <div class="top-menu-icon">
+                                        <i class="mdi mdi-heart-outline"></i>
+                                    </div>
+                                    <span class="top-manu-name">
+                                        Favorite
+                                    </span>
+                                </div>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right dropdown-menu-animated top-menu-dropdown ">
+                                <!-- item-->
+                                <div class="dropdown-header dropdown-menu-title">
+                                    <h6 class="text-overflow m-0">Favorite</h6>
+                                </div>
+
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item dropdown-menu-item">
+                                    <i class="mdi mdi-account-outline"></i>
+                                    <span>Users</span>
+                                </a>
+
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item dropdown-menu-item">
+                                    <i class="mdi mdi-account-multiple-outline"></i>
+                                    <span>Trainers</span>
+                                </a>
+
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item dropdown-menu-item">
+                                    <i class="mdi mdi-video"></i>
+                                    <span>Videos</span>
+                                </a>
+
+                            </div>
+                        </li>
+                        <li class="dropdown top-nav-menu">
+                            <a class="nav-link dropdown-toggle nav-top mr-0" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                                <div class="top-menu-inner">
+                                    <div class="top-menu-icon">
+                                        <i class="mdi mdi-apps"></i>
+                                    </div>
+                                    <span class="top-manu-name">
+                                        More
+                                    </span>
+                                </div>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right dropdown-menu-animated top-menu-dropdown ">
+                                <!-- item-->
+                                <div class="dropdown-header dropdown-menu-title">
+                                    <h6 class="text-overflow m-0">More...</h6>
+                                </div>
+
+                                <!-- item-->
+                                <a href="reply.html" class="dropdown-item dropdown-menu-item">
+                                    <i class="mdi mdi-comment-processing-outline"></i>
+                                    <span>Reply</span>
+                                </a>
+
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item dropdown-menu-item">
+                                    <i class="mdi mdi-flag-variant-outline"></i>
+                                    <span>Reoprt an Issue</span>
+                                </a>
+
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item dropdown-menu-item">
+                                    <i class=" mdi mdi-dots-horizontal"></i>
+                                    <span>More</span>
+                                </a>
+
+                            </div>
+                        </li>
+
+                        <li class="dropdown top-nav-menu">
+                            <a class="nav-link dropdown-toggle nav-top mr-0" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                                <img src="assets/images/users/profile.jpg" alt="user-image" class="rounded-circle">
+
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right dropdown-menu-animated top-menu-dropdown ">
+                                <!-- item-->
+                                <div class="dropdown-header dropdown-menu-title">
+                                    <h6 class="text-overflow m-0">Welcome !</h6>
+                                </div>
+
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item dropdown-menu-item">
+                                    <i class="mdi mdi-account-outline"></i>
+                                    <span>Account</span>
+                                </a>
+
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item dropdown-menu-item">
+                                    <i class="mdi mdi-cogs"></i>
+                                    <span>Settings</span>
+                                </a>
+
+                                <div class="dropdown-divider"></div>
+
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item dropdown-menu-item">
+                                    <i class="mdi mdi-power"></i>
+                                    <span>Logout</span>
+                                </a>
+
+                            </div>
+                        </li>
+
+                    </ul>
+                    <button class="button-menu-mobile open-left disable-btn">
+                        <i class="mdi mdi-menu"></i>
+                    </button>
+                    <div class="top-search">
+                        <form>
+                            <div class="input-group">
+                                <div class="input-group-append">
+                                    <button class="btn btn-top-search" type="submit">
+                                        <i class="fe-search"></i>
+                                    </button>
+                                </div>
+                                <input type="text" class="form-control" placeholder="Search...">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!-- end Topbar -->
+
+                <!-- Start Content-->
+                <div class="container-fluid">
+                    <!-- start page title -->
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="page-title-box">
+                                <div class="page-title-right">
+                                    <ol class="breadcrumb m-0">
+                                        <li class="breadcrumb-item"><a href="#">Vex Fitness</a></li>
+                                        <li class="breadcrumb-item"><a href="#">Dashboard</a></li>
+                                        <li class="breadcrumb-item active">User</li>
+                                    </ol>
+                                </div>
+                                <h4 class="page-title">User Management</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end page title -->
+
+                    <!-- page body -->
+                    <div class="row page-body">
+                        <!-- col Right -->
+                        <div class="col-xl-4 col-lg-5 order-lg-2 col-right">
+                            <div class="page-body-inner">
+                                <div class="section">
+                                    <div class="section-body">
+
+                                        <div class="cover-photo">
+                                            <img src="assets/images/users/cover.jpg" alt="cover-image" class="img-fluid cover-img">
+                                            <div class="cover-control">
+                                                <div class="cover-tag">Following</div>
+                                                <div class="cover-action">
+                                                    <button type="button" class="btn btn-cover"> <i class="mdi mdi-heart-outline"></i></button>
+                                                    <div class="btn-group">
+                                                        <button type="button" class="btn btn-cover dropdown-toggle" data-toggle="dropdown" aria-expanded="false"> <i class="mdi mdi-dots-vertical"></i><span class="caret"></span> </button>
+                                                        <div class="dropdown-menu">
+                                                            <a class="dropdown-item" href="#">Export CSV</a>
+                                                            <a class="dropdown-item" href="#">Deactivate</a>
+                                                            <a class="dropdown-item" href="#">Remove</a>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                                <button type="button" class="btn btn-cover-action"> <i class="mdi mdi-account-edit"></i> Edit Profile</button>
+
+                                            </div>
+
+                                        </div>
+                                        <div class="user-basic-info text-left">
+                                            <h3 class="name">Liam Sheehan</h3>
+                                            <h6 class="email">liamzie@gmail.com</h6>
+                                            <div class="info-table">
+                                                <ul class="list-inline">
+                                                    <li class="list-inline-item">Date of Birth</li>
+                                                    <li class="list-inline-item">:</li>
+                                                    <li class="list-inline-item">21 June 1966</li>
+                                                </ul>
+                                                <ul class="list-inline">
+                                                    <li class="list-inline-item">Phone Number</li>
+                                                    <li class="list-inline-item">:</li>
+                                                    <li class="list-inline-item">+00 01234 567890</li>
+                                                </ul>
+                                                <ul class="list-inline">
+                                                    <li class="list-inline-item">Join Date</li>
+                                                    <li class="list-inline-item">:</li>
+                                                    <li class="list-inline-item">23-Mar-2021
+                                                    </li>
+                                                </ul>
+                                                <ul class="list-inline">
+                                                    <li class="list-inline-item">Renew Date</li>
+                                                    <li class="list-inline-item">:</li>
+                                                    <li class="list-inline-item">23-Mar-2025
+                                                    </li>
+                                                </ul>
+                                                <ul class="list-inline">
+                                                    <li class="list-inline-item">Source</li>
+                                                    <li class="list-inline-item">:</li>
+                                                    <li class="list-inline-item">Web</li>
+                                                </ul>
+                                                <ul class="list-inline">
+                                                    <li class="list-inline-item">Credits</li>
+                                                    <li class="list-inline-item">:</li>
+                                                    <li class="list-inline-item">$560.09</li>
+                                                </ul>
+                                                <ul class="list-inline">
+                                                    <li class="list-inline-item">Attendences</li>
+                                                    <li class="list-inline-item">:</li>
+                                                    <li class="list-inline-item">23 Class</li>
+                                                </ul>
+                                                <ul class="list-inline">
+                                                    <li class="list-inline-item">Status</li>
+                                                    <li class="list-inline-item">:</li>
+                                                    <li class="list-inline-item">Active</li>
+                                                </ul>
+                                                <ul class="list-inline">
+                                                    <li class="list-inline-item">SubStatus</li>
+                                                    <li class="list-inline-item">:</li>
+                                                    <li class="list-inline-item">03 Active Purchase</li>
+                                                </ul>
+                                                <ul class="list-inline">
+                                                    <li class="list-inline-item">Active Plans</li>
+                                                    <li class="list-inline-item">:</li>
+                                                    <li class="list-inline-item">03</li>
+                                                </ul>
+                                                <ul class="list-inline">
+                                                    <li class="list-inline-item">Payment</li>
+                                                    <li class="list-inline-item">:</li>
+                                                    <li class="list-inline-item">No charges found!</li>
+                                                </ul>
+
+                                            </div>
+
+
+                                        </div>
+                                        <hr class="bottom-line">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end col Right -->
+                        <!-- col Left -->
+                        <div class="col-xl-8 col-lg-7 order-lg-1 col-left">
+                            <div class="page-body-inner">
+                                <div class="section">
+                                    <div class="section-header">
+                                        <h3 class="section-header-title">Users</h3>
+                                        <div class="section-header-action">
+                                            <div class="btn-group">
+                                                <button type="button" class="btn btn-action"> <i class="mdi mdi-plus"></i> Add</button>
+                                                <div class="btn-group">
+                                                    <button type="button" class="btn btn-action dropdown-toggle" data-toggle="dropdown" aria-expanded="false"> <i class="mdi mdi-dots-vertical"></i> More <span class="caret"></span> </button>
+                                                    <div class="dropdown-menu">
+                                                        <a class="dropdown-item" href="#">Export CSV</a>
+                                                        <a class="dropdown-item" href="#">Deactivate</a>
+                                                        <a class="dropdown-item" href="#">Remove</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="section-header-bottom">
+                                        <div class="progress mb-2" style="height: 2px;">
+                                            <div class="progress-bar" role="progressbar" style="width: 10%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                    <div class="section-body">
+                                        <div class="content-box">
+                                            <div class="content-grid">
+                                                <div class="card content-card">
+                                                    <div class="card-header">
+                                                        <div class="card-image">
+                                                            <img src="assets/images/users/cover.jpg" alt="card-image" class="img-fluid rounded-circle card-img">
+                                                        </div>
+                                                        <div class="card-header-info">
+                                                            <h4 class="card-title">Liam Sheehan</h4>
+                                                            <span><i class="mdi mdi-email-outline"></i>liamzie@gmail.com
+                                                            </span>
+                                                        </div>
+                                                        <div class="card-header-action">
+                                                            <button type="button" class="btn btn-card"> <i class="mdi mdi-heart-outline"></i></button>
+                                                            <div class="btn-group">
+                                                                <button type="button" class="btn btn-card dropdown-toggle" data-toggle="dropdown" aria-expanded="false"> <i class="mdi mdi-dots-vertical"></i><span class="caret"></span> </button>
+                                                                <div class="dropdown-menu">
+                                                                    <a class="dropdown-item" href="#">Export CSV</a>
+                                                                    <a class="dropdown-item" href="#">Deactivate</a>
+                                                                    <a class="dropdown-item" href="#">Remove</a>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="card-body">
+                                                        <div class="card-meta">
+                                                            <div class="card-meta-info">
+                                                                <span><i class=" mdi mdi-currency-usd"></i>560.09
+                                                                </span>
+                                                            </div>
+                                                            <div class="card-meta-info">
+                                                                <span><i class="mdi mdi-trophy-outline"></i>23 Class
+                                                                </span>
+                                                            </div>
+                                                            <div class="card-meta-info">
+                                                                <div class="tag">Following</div>
+                                                            </div>
+
+                                                        </div>
+                                                        <div class="info-table text-left">
+                                                            <ul class="list-inline">
+                                                                <li class="list-inline-item">Status</li>
+                                                                <li class="list-inline-item">:</li>
+                                                                <li class="list-inline-item">Active</li>
+                                                            </ul>
+                                                            <ul class="list-inline">
+                                                                <li class="list-inline-item">SubStatus</li>
+                                                                <li class="list-inline-item">:</li>
+                                                                <li class="list-inline-item">03 Active Purchase</li>
+                                                            </ul>
+                                                            <ul class="list-inline">
+                                                                <li class="list-inline-item">Subscriptions</li>
+                                                                <li class="list-inline-item">:</li>
+                                                                <li class="list-inline-item">03
+                                                                </li>
+                                                            </ul>
+
+                                                        </div>
+
+
+                                                    </div>
+                                                </div>
+                                                <div class="card content-card">
+                                                    <div class="card-header">
+                                                        <div class="card-image">
+                                                            <img src="assets/images/users/cover.jpg" alt="card-image" class="img-fluid rounded-circle card-img">
+                                                        </div>
+                                                        <div class="card-header-info">
+                                                            <h4 class="card-title">Liam Sheehan</h4>
+                                                            <span><i class="mdi mdi-email-outline"></i>liamzie@gmail.com
+                                                            </span>
+                                                        </div>
+                                                        <div class="card-header-action">
+                                                            <button type="button" class="btn btn-card"> <i class="mdi mdi-heart-outline"></i></button>
+                                                            <div class="btn-group">
+                                                                <button type="button" class="btn btn-card dropdown-toggle" data-toggle="dropdown" aria-expanded="false"> <i class="mdi mdi-dots-vertical"></i><span class="caret"></span> </button>
+                                                                <div class="dropdown-menu">
+                                                                    <a class="dropdown-item" href="#">Export CSV</a>
+                                                                    <a class="dropdown-item" href="#">Deactivate</a>
+                                                                    <a class="dropdown-item" href="#">Remove</a>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="card-body">
+                                                        <div class="card-meta">
+                                                            <div class="card-meta-info">
+                                                                <span><i class=" mdi mdi-currency-usd"></i>560.09
+                                                                </span>
+                                                            </div>
+                                                            <div class="card-meta-info">
+                                                                <span><i class="mdi mdi-trophy-outline"></i>23 Class
+                                                                </span>
+                                                            </div>
+                                                            <div class="card-meta-info">
+                                                                <div class="tag">Following</div>
+                                                            </div>
+
+                                                        </div>
+                                                        <div class="info-table text-left">
+                                                            <ul class="list-inline">
+                                                                <li class="list-inline-item">Status</li>
+                                                                <li class="list-inline-item">:</li>
+                                                                <li class="list-inline-item">Active</li>
+                                                            </ul>
+                                                            <ul class="list-inline">
+                                                                <li class="list-inline-item">SubStatus</li>
+                                                                <li class="list-inline-item">:</li>
+                                                                <li class="list-inline-item">03 Active Purchase</li>
+                                                            </ul>
+                                                            <ul class="list-inline">
+                                                                <li class="list-inline-item">Subscriptions</li>
+                                                                <li class="list-inline-item">:</li>
+                                                                <li class="list-inline-item">03
+                                                                </li>
+                                                            </ul>
+
+                                                        </div>
+
+
+                                                    </div>
+                                                </div>
+                                                <div class="card content-card">
+                                                    <div class="card-header">
+                                                        <div class="card-image">
+                                                            <img src="assets/images/users/cover.jpg" alt="card-image" class="img-fluid rounded-circle card-img">
+                                                        </div>
+                                                        <div class="card-header-info">
+                                                            <h4 class="card-title">Liam Sheehan</h4>
+                                                            <span><i class="mdi mdi-email-outline"></i>liamzie@gmail.com
+                                                            </span>
+                                                        </div>
+                                                        <div class="card-header-action">
+                                                            <button type="button" class="btn btn-card"> <i class="mdi mdi-heart-outline"></i></button>
+                                                            <div class="btn-group">
+                                                                <button type="button" class="btn btn-card dropdown-toggle" data-toggle="dropdown" aria-expanded="false"> <i class="mdi mdi-dots-vertical"></i><span class="caret"></span> </button>
+                                                                <div class="dropdown-menu">
+                                                                    <a class="dropdown-item" href="#">Export CSV</a>
+                                                                    <a class="dropdown-item" href="#">Deactivate</a>
+                                                                    <a class="dropdown-item" href="#">Remove</a>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="card-body">
+                                                        <div class="card-meta">
+                                                            <div class="card-meta-info">
+                                                                <span><i class=" mdi mdi-currency-usd"></i>560.09
+                                                                </span>
+                                                            </div>
+                                                            <div class="card-meta-info">
+                                                                <span><i class="mdi mdi-trophy-outline"></i>23 Class
+                                                                </span>
+                                                            </div>
+                                                            <div class="card-meta-info">
+                                                                <div class="tag">Following</div>
+                                                            </div>
+
+                                                        </div>
+                                                        <div class="info-table text-left">
+                                                            <ul class="list-inline">
+                                                                <li class="list-inline-item">Status</li>
+                                                                <li class="list-inline-item">:</li>
+                                                                <li class="list-inline-item">Active</li>
+                                                            </ul>
+                                                            <ul class="list-inline">
+                                                                <li class="list-inline-item">SubStatus</li>
+                                                                <li class="list-inline-item">:</li>
+                                                                <li class="list-inline-item">03 Active Purchase</li>
+                                                            </ul>
+                                                            <ul class="list-inline">
+                                                                <li class="list-inline-item">Subscriptions</li>
+                                                                <li class="list-inline-item">:</li>
+                                                                <li class="list-inline-item">03
+                                                                </li>
+                                                            </ul>
+
+                                                        </div>
+
+
+                                                    </div>
+                                                </div>
+                                                <div class="card content-card">
+                                                    <div class="card-header">
+                                                        <div class="card-image">
+                                                            <img src="assets/images/users/cover.jpg" alt="card-image" class="img-fluid rounded-circle card-img">
+                                                        </div>
+                                                        <div class="card-header-info">
+                                                            <h4 class="card-title">Liam Sheehan</h4>
+                                                            <span><i class="mdi mdi-email-outline"></i>liamzie@gmail.com
+                                                            </span>
+                                                        </div>
+                                                        <div class="card-header-action">
+                                                            <button type="button" class="btn btn-card"> <i class="mdi mdi-heart-outline"></i></button>
+                                                            <div class="btn-group">
+                                                                <button type="button" class="btn btn-card dropdown-toggle" data-toggle="dropdown" aria-expanded="false"> <i class="mdi mdi-dots-vertical"></i><span class="caret"></span> </button>
+                                                                <div class="dropdown-menu">
+                                                                    <a class="dropdown-item" href="#">Export CSV</a>
+                                                                    <a class="dropdown-item" href="#">Deactivate</a>
+                                                                    <a class="dropdown-item" href="#">Remove</a>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="card-body">
+                                                        <div class="card-meta">
+                                                            <div class="card-meta-info">
+                                                                <span><i class=" mdi mdi-currency-usd"></i>560.09
+                                                                </span>
+                                                            </div>
+                                                            <div class="card-meta-info">
+                                                                <span><i class="mdi mdi-trophy-outline"></i>23 Class
+                                                                </span>
+                                                            </div>
+                                                            <div class="card-meta-info">
+                                                                <div class="tag">Following</div>
+                                                            </div>
+
+                                                        </div>
+                                                        <div class="info-table text-left">
+                                                            <ul class="list-inline">
+                                                                <li class="list-inline-item">Status</li>
+                                                                <li class="list-inline-item">:</li>
+                                                                <li class="list-inline-item">Active</li>
+                                                            </ul>
+                                                            <ul class="list-inline">
+                                                                <li class="list-inline-item">SubStatus</li>
+                                                                <li class="list-inline-item">:</li>
+                                                                <li class="list-inline-item">03 Active Purchase</li>
+                                                            </ul>
+                                                            <ul class="list-inline">
+                                                                <li class="list-inline-item">Subscriptions</li>
+                                                                <li class="list-inline-item">:</li>
+                                                                <li class="list-inline-item">03
+                                                                </li>
+                                                            </ul>
+
+                                                        </div>
+
+
+                                                    </div>
+                                                </div>
+                                                <div class="card content-card">
+                                                    <div class="card-header">
+                                                        <div class="card-image">
+                                                            <img src="assets/images/users/cover.jpg" alt="card-image" class="img-fluid rounded-circle card-img">
+                                                        </div>
+                                                        <div class="card-header-info">
+                                                            <h4 class="card-title">Liam Sheehan</h4>
+                                                            <span><i class="mdi mdi-email-outline"></i>liamzie@gmail.com
+                                                            </span>
+                                                        </div>
+                                                        <div class="card-header-action">
+                                                            <button type="button" class="btn btn-card"> <i class="mdi mdi-heart-outline"></i></button>
+                                                            <div class="btn-group">
+                                                                <button type="button" class="btn btn-card dropdown-toggle" data-toggle="dropdown" aria-expanded="false"> <i class="mdi mdi-dots-vertical"></i><span class="caret"></span> </button>
+                                                                <div class="dropdown-menu">
+                                                                    <a class="dropdown-item" href="#">Export CSV</a>
+                                                                    <a class="dropdown-item" href="#">Deactivate</a>
+                                                                    <a class="dropdown-item" href="#">Remove</a>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="card-body">
+                                                        <div class="card-meta">
+                                                            <div class="card-meta-info">
+                                                                <span><i class=" mdi mdi-currency-usd"></i>560.09
+                                                                </span>
+                                                            </div>
+                                                            <div class="card-meta-info">
+                                                                <span><i class="mdi mdi-trophy-outline"></i>23 Class
+                                                                </span>
+                                                            </div>
+                                                            <div class="card-meta-info">
+                                                                <div class="tag">Following</div>
+                                                            </div>
+
+                                                        </div>
+                                                        <div class="info-table text-left">
+                                                            <ul class="list-inline">
+                                                                <li class="list-inline-item">Status</li>
+                                                                <li class="list-inline-item">:</li>
+                                                                <li class="list-inline-item">Active</li>
+                                                            </ul>
+                                                            <ul class="list-inline">
+                                                                <li class="list-inline-item">SubStatus</li>
+                                                                <li class="list-inline-item">:</li>
+                                                                <li class="list-inline-item">03 Active Purchase</li>
+                                                            </ul>
+                                                            <ul class="list-inline">
+                                                                <li class="list-inline-item">Subscriptions</li>
+                                                                <li class="list-inline-item">:</li>
+                                                                <li class="list-inline-item">03
+                                                                </li>
+                                                            </ul>
+
+                                                        </div>
+
+
+                                                    </div>
+                                                </div>
+                                                <div class="card content-card">
+                                                    <div class="card-header">
+                                                        <div class="card-image">
+                                                            <img src="assets/images/users/cover.jpg" alt="card-image" class="img-fluid rounded-circle card-img">
+                                                        </div>
+                                                        <div class="card-header-info">
+                                                            <h4 class="card-title">Liam Sheehan</h4>
+                                                            <span><i class="mdi mdi-email-outline"></i>liamzie@gmail.com
+                                                            </span>
+                                                        </div>
+                                                        <div class="card-header-action">
+                                                            <button type="button" class="btn btn-card"> <i class="mdi mdi-heart-outline"></i></button>
+                                                            <div class="btn-group">
+                                                                <button type="button" class="btn btn-card dropdown-toggle" data-toggle="dropdown" aria-expanded="false"> <i class="mdi mdi-dots-vertical"></i><span class="caret"></span> </button>
+                                                                <div class="dropdown-menu">
+                                                                    <a class="dropdown-item" href="#">Export CSV</a>
+                                                                    <a class="dropdown-item" href="#">Deactivate</a>
+                                                                    <a class="dropdown-item" href="#">Remove</a>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="card-body">
+                                                        <div class="card-meta">
+                                                            <div class="card-meta-info">
+                                                                <span><i class=" mdi mdi-currency-usd"></i>560.09
+                                                                </span>
+                                                            </div>
+                                                            <div class="card-meta-info">
+                                                                <span><i class="mdi mdi-trophy-outline"></i>23 Class
+                                                                </span>
+                                                            </div>
+                                                            <div class="card-meta-info">
+                                                                <div class="tag">Following</div>
+                                                            </div>
+
+                                                        </div>
+                                                        <div class="info-table text-left">
+                                                            <ul class="list-inline">
+                                                                <li class="list-inline-item">Status</li>
+                                                                <li class="list-inline-item">:</li>
+                                                                <li class="list-inline-item">Active</li>
+                                                            </ul>
+                                                            <ul class="list-inline">
+                                                                <li class="list-inline-item">SubStatus</li>
+                                                                <li class="list-inline-item">:</li>
+                                                                <li class="list-inline-item">03 Active Purchase</li>
+                                                            </ul>
+                                                            <ul class="list-inline">
+                                                                <li class="list-inline-item">Subscriptions</li>
+                                                                <li class="list-inline-item">:</li>
+                                                                <li class="list-inline-item">03
+                                                                </li>
+                                                            </ul>
+
+                                                        </div>
+
+
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <button type="button" class="btn btn-block btn-sm btn-load-more"> <i class=" mdi mdi-arrow-down"></i> Load More....</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- end col Left -->
+                    </div>
+                    <!-- end page body -->
+
+
+
+                </div>
+                <!-- container -->
+
+            </div>
+            <!-- content -->
+
+            <!-- Footer Start -->
+            <footer class="footer">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-6 order-md-2">
+                            <div class="text-md-right footer-links">
+                                <a href="#">About Us</a>
+                                <a href="#">Help</a>
+                                <a href="#">Contact Us</a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            Vex Fitness &copy; 2021 - All rights reserved
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- end Footer -->
+
+        </div>
+
+        <!-- ============================================================== -->
+        <!-- End Page content -->
+        <!-- ============================================================== -->
+
+
+    </div>
+    <!-- END wrapper -->
+
+
+    <!-- Vendor JS Files -->
+    <script src="js/vendor.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
