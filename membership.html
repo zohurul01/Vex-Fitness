@@ -419,10 +419,10 @@
                                     <ol class="breadcrumb m-0">
                                         <li class="breadcrumb-item"><a href="#">Vex Fitness</a></li>
                                         <li class="breadcrumb-item"><a href="#">Dashboard</a></li>
-                                        <li class="breadcrumb-item active">GYM</li>
+                                        <li class="breadcrumb-item active">Membership</li>
                                     </ol>
                                 </div>
-                                <h4 class="page-title"> GYM Overview </h4>
+                                <h4 class="page-title">Membership</h4>
                             </div>
                         </div>
                     </div>
@@ -430,7 +430,249 @@
 
                     <!-- page body -->
                     <div class="row page-body">
+                        <!-- col Right -->
+                        <div class="col-xl-4 col-lg-5 order-lg-2 col-right">
+                            <div class="page-body-inner">
+                                <div class="section">
+                                    <div class="section-header">
+                                        <h3 class="section-header-title">General Details</h3>
+                                    </div>
+                                    <div class="section-header-bottom">
+                                        <div class="progress mb-2" style="height: 2px;">
+                                            <div class="progress-bar" role="progressbar" style="width: 10%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                    <div class="section-body">
 
+                                        <form>
+                                            <div class="form-group">
+                                                <label for="name">Plan Name</label>
+                                                <input type="text" class="form-control" id="name" placeholder="Plan Name">
+                                                <small class="form-text text-muted">this will be the plan name.</small>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="discriptions">Discriptions</label>
+                                                <textarea class="form-control" rows="4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  </textarea>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="price">Price</label>
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control" placeholder="$560.09">
+                                                    <div class="input-group-prepend">
+                                                        <select class="custom-select">
+                                                            <option selected>EUR</option>
+                                                            <option value="1">USD</option>
+                                                            <option value="2">BDT</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="checkbox" checked data-plugin="switchery" data-color="#1B252F" data-secondary-color="#FF6832" data-size="small" />
+                                                <label class="control-label" for="">Usage is Metered</label>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="priceDiscriptions">Price Discriptions</label>
+                                                <textarea class="form-control" rows="4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  </textarea>
+                                            </div>
+                                            <div class="form-group row mt-3">
+                                                <div class="col-lg-4 col-md-4 col-xs-5">
+                                                    <button type="submit" class="btn btn-block btn-billing-cancel">Cancel</button>
+                                                </div>
+                                                <div class="col-lg-4 col-md-4 col-xs-2">
+
+                                                </div>
+                                                <div class="col-lg-4 col-md-4 col-xs-5">
+                                                    <button type="submit" class="btn btn-block btn-billing">Save</button>
+                                                </div>
+                                            </div>
+                                        </form>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end col Right -->
+                        <!-- col Left -->
+                        <div class="col-xl-8 col-lg-7 order-lg-1 col-left">
+                            <div class="page-body-inner">
+                                <div class="section">
+                                    <div class="section-header">
+                                        <h3 class="section-header-title">Membership Details</h3>
+                                    </div>
+                                    <div class="section-header-bottom">
+                                        <div class="progress mb-2" style="height: 2px;">
+                                            <div class="progress-bar" role="progressbar" style="width: 10%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                    <div class="section-body">
+                                        <h4>Advance Settings</h4>
+
+
+                                        <form>
+                                            <div class="row mt-3">
+                                                <div class="col-lg-6 col-md-12">
+
+                                                    <div class="form-group">
+                                                        <label for="name">Price Model</label><br>
+                                                        <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                                            <label class="btn btn-setting active">
+                                                            <input type="radio" name="options" id="Basic" autocomplete="off" checked> Basic
+                                                            </label>
+                                                            <label class="btn btn-setting">
+                                                            <input type="radio" name="options" id="Standard" autocomplete="off"> Standard
+                                                            </label>
+                                                            <label class="btn btn-setting">
+                                                            <input type="radio" name="options" id="Advanced" autocomplete="off"> Advanced
+                                                            </label>
+                                                            <label class="btn btn-setting">
+                                                            <input type="radio" name="options" id="Intermediate" autocomplete="off"> Intermediate
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="name">Type</label><br>
+                                                        <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                                            <label class="btn btn-setting active">
+                                                          <input type="radio" name="options" id="DatePurchase" autocomplete="off" checked> Date Of Purchase
+                                                        </label>
+                                                            <label class="btn btn-setting">
+                                                          <input type="radio" name="options" id="   DateBooking" autocomplete="off">    Date Of Booking
+                                                        </label>
+                                                        </div>
+                                                        <small class="form-text text-muted">this will be the price model.</small>
+                                                    </div>
+
+                                                    <div class="form-group">
+                                                        <label for="name">Bill Period</label><br>
+                                                        <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                                            <label class="btn btn-setting active">
+                                                          <input type="radio" name="options" id="Monthly" autocomplete="off" checked>Monthly
+                                                        </label>
+                                                            <label class="btn btn-setting">
+                                                          <input type="radio" name="options" id="Yearly" autocomplete="off">Yearly
+                                                        </label>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="form-group">
+                                                        <label for="name">Payment Frequency</label><br>
+                                                        <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                                            <label class="btn btn-setting active">
+                                                          <input type="radio" name="options" id="Single" autocomplete="off" checked>Single
+                                                        </label>
+                                                            <label class="btn btn-setting">
+                                                          <input type="radio" name="options" id="Recurring" autocomplete="off">Recurring
+                                                        </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-12">
+                                                    <div class="form-group">
+                                                        <label for="name">Online</label><br>
+                                                        <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                                            <label class="btn btn-setting active">
+                                                          <input type="radio" name="options" id="OnDemand" autocomplete="off" checked> On Demand
+                                                        </label>
+                                                            <label class="btn btn-setting">
+                                                          <input type="radio" name="options" id="Live" autocomplete="off">    Live
+                                                        </label>
+                                                            <label class="btn btn-setting">
+                                                      <input type="radio" name="options" id="NotIncluded" autocomplete="off">    Not Included
+                                                    </label>
+                                                        </div>
+                                                        <small class="form-text text-muted">this will be the price model.</small>
+                                                    </div>
+
+                                                    <div class="form-group">
+                                                        <label for="name">Location</label><br>
+                                                        <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                                            <label class="btn btn-setting active">
+                                                          <input type="radio" name="options" id="AlQooz" autocomplete="off" checked> Al Qooz
+                                                        </label>
+                                                            <label class="btn btn-setting">
+                                                          <input type="radio" name="options" id="Dudai" autocomplete="off">    Dudai, UAE
+                                                        </label>
+                                                            <label class="btn btn-setting">
+                                                      <input type="radio" name="options" id="Dublin" autocomplete="off">Dublin, IRE
+                                                    </label>
+                                                        </div>
+                                                        <a href="#" class="form-text text-muted"> <i class="mdi mdi-plus"></i> Add New Location</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row mt-3">
+                                                <div class="col-lg-3 col-md-6">
+
+                                                    <div class="form-group">
+                                                        <input type="checkbox" checked data-plugin="switchery" data-color="#1B252F" data-secondary-color="#FF6832" data-size="small" />
+                                                        <label class="control-label" for="">Change every Month ?</label>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-lg-3 col-md-6">
+
+                                                    <div class="form-group">
+                                                        <input type="checkbox" data-plugin="switchery" data-color="#1B252F" data-secondary-color="#FF6832" data-size="small" />
+                                                        <label class="control-label" for="">Has End Date ?</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6">
+
+                                                    <div class="form-group">
+                                                        <input type="checkbox" data-plugin="switchery" data-color="#1B252F" data-secondary-color="#FF6832" data-size="small" />
+                                                        <label class="control-label" for="">Gift First Period Free ?</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6">
+                                                    <div class="form-group">
+                                                        <input type="checkbox" data-plugin="switchery" data-color="#1B252F" data-secondary-color="#FF6832" data-size="small" />
+                                                        <label class="control-label" for="">Join Free ?</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group mt-3 member-inline">
+                                                <div class="form-inline">
+                                                    <span class="mr-2">AED</span>
+                                                    <select class="custom-select mr-2">
+                                                            <option selected>10</option>
+                                                            <option value="1">20</option>
+                                                            <option value="2">30</option>
+                                                        </select>
+
+                                                    <span class="mr-2">Every </span>
+                                                    <select class="custom-select mr-2">
+                                                                <option selected>01</option>
+                                                                <option value="1">02</option>
+                                                                <option value="2">03</option>
+                                                            </select>
+                                                    <span class="mr-2">Priod </span>
+                                                    <select class="custom-select">
+                                                                    <option selected>Month</option>
+                                                                    <option value="1">Yearly</option>
+                                                                </select>
+                                                </div>
+                                            </div>
+                                            <div class="form-group row mt-3">
+                                                <div class="col-lg-2 col-md-4 col-xs-5">
+                                                    <button type="submit" class="btn btn-block btn-billing-cancel">Cancel</button>
+                                                </div>
+                                                <div class="col-lg-8 col-md-4 col-xs-2">
+
+                                                </div>
+                                                <div class="col-lg-2 col-md-4 col-xs-5">
+                                                    <button type="submit" class="btn btn-block btn-billing">Save</button>
+                                                </div>
+                                            </div>
+                                        </form>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- end col Left -->
                     </div>
                     <!-- end page body -->
 
@@ -474,7 +716,7 @@
 
     <!-- Vendor JS Files -->
     <script src="js/vendor.min.js"></script>
-    
+
     <!-- Plugins js -->
     <script src="js/switchery.min.js"></script>
     <script src="js/form-advanced.init.js"></script>

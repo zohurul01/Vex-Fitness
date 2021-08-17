@@ -43,6 +43,29 @@ General
         overflow-x: hidden;
         font-family: var(--vf-font);
     }
+    
+    .btn.focus,
+    .btn:focus {
+        outline: 0;
+        -webkit-box-shadow: 0 0 0 0.15rem rgb(247 184 75 / 25%);
+        box-shadow: 0 0 0 0.15rem rgb(247 184 75 / 25%);
+    }
+    
+    @media (max-width: 768px) {
+        .btn-group,
+        .btn-group-vertical {
+            flex-wrap: wrap;
+            margin-top: -10px;
+        }
+        .btn-group .btn,
+        .btn-group-vertical .btn {
+            margin-top: 10px;
+        }
+        .member-inline .form-inline {
+            -ms-flex-flow: row;
+            flex-flow: row;
+        }
+    }
     /* ============ 
  Scrollbar 
 ===============*/
@@ -1034,6 +1057,21 @@ Page Head
         border-radius: 20px;
         padding: 5px 10px;
     }
+    
+    .btn-setting {
+        background: transparent;
+        color: var(--vf-main);
+        border: 1px solid var(--vf-main);
+        border-radius: 5px!important;
+        margin-right: 10px;
+    }
+    
+    .btn-setting:not(:disabled):not(.disabled).active,
+    .btn-setting:not(:disabled):not(.disabled):active,
+    .show>.btn-setting.dropdown-toggle {
+        background: var(--vf-main);
+        color: var(--vf-white);
+    }
     /* ============ 
  Footer
 ===============*/
@@ -1654,6 +1692,15 @@ Page Head
         box-shadow: none;
         border-color: var(--vf-none);
     }
+    
+    @media (max-width: 768px) {
+        .btn-billing {
+            margin-top: 10px;
+        }
+        .btn-billing-cancel {
+            margin-top: 10px;
+        }
+    }
     /* ============ 
     Post and Video Grid
     ===============*/
@@ -1809,4 +1856,87 @@ Page Head
         .post-grid .post-card .card-body .info-table {
             padding: 10px;
         }
+    }
+    /* ============ 
+    Subscription Table
+    ===============*/
+    
+    .table-col {
+        overflow-y: auto;
+        max-width: 100%;
+        border: none;
+        outline: none;
+    }
+    
+    #SubscriptionTable {
+        border-spacing: 0 0.85rem !important;
+    }
+    
+    #SubscriptionTable td,
+    #SubscriptionTablee th {
+        vertical-align: middle;
+        margin-bottom: 10px;
+        border: none;
+        border-top: 3px solid var(--vf-l-gray);
+    }
+    
+    #SubscriptionTable thead tr,
+    #SubscriptionTable thead th {
+        border: none;
+        font-size: 12px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        background: transparent;
+    }
+    
+    #SubscriptionTable td {
+        background: var(--vf-white);
+    }
+    
+    #SubscriptionTable a {
+        color: var(--vf-main);
+    }
+    
+    #SubscriptionTable a:hover,
+    #SubscriptionTable a:focus {
+        text-decoration: none;
+    }
+    
+    .avatar {
+        width: 2.75rem;
+        height: 2.75rem;
+        line-height: 3rem;
+        border-radius: 50%;
+        display: inline-block;
+        position: relative;
+        text-align: center;
+        font-weight: 700;
+        vertical-align: bottom;
+        font-size: 1rem;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        background-color: var(--vf-light);
+        color: var(--vf-main);
+    }
+    
+    .avatar i {
+        color: var(--vf-main);
+        font-size: 24px;
+    }
+    
+    .btn-table {
+        color: var(--vf-main);
+        background: transparent;
+        box-shadow: none;
+        font-size: 28px;
+    }
+    
+    .btn-table:focus {
+        box-shadow: none;
+    }
+    
+    .btn-table.dropdown-toggle::after {
+        display: none;
     }
